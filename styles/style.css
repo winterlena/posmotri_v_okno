@@ -172,16 +172,16 @@ ol {
   outline-offset: 2px;
 }
 
+.button:focus {
+  outline: none;
+}
+
 .button:active {
   background: #545050;
 }
 
 .button:hover {
   text-decoration: underline;
-}
-
-.button:focus {
-  outline: none;
 }
 
 .more-button {
